@@ -131,6 +131,15 @@ fenster.mainloop()
 # Hinweis:
 # immer Ctrl+C im Terminal drücken und Programm neu starten, wenn GUI hängt
 
+# Best Practices for Writing Commit Messages
+# Limit the subject line to 50 characters.
+# Capitalize only the first letter of the subject.
+# Do not end the subject line with a period.
+# Insert a blank line between the subject and body.
+# Wrap the body at 72 characters.
+# Use the imperative mood (e.g., "Add feature" instead of "Added feature").
+# Describe what was done and why, but not how.
+ 
 
 # source venv/bin/activate
 # python telefonnrabfrage.py 
