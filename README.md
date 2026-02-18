@@ -4,7 +4,7 @@ Ein kleines Python-Programm mit grafischer Oberfläche (GUI), das Telefonnummern
 
 ---
 
-## 🖥️ Features
+## Features
 
 * GUI mit **Tkinter**: Eingabefeld für Telefonnummer und Ergebnisfeld
 * Ruft **dasoertliche.de** auf und extrahiert Name, Straße, Hausnummer, PLZ und Stadt
@@ -13,7 +13,7 @@ Ein kleines Python-Programm mit grafischer Oberfläche (GUI), das Telefonnummern
 
 ---
 
-## ⚙️ Voraussetzungen
+## Voraussetzungen
 
 * Python 3.10+ (getestet mit 3.14 auf Mac)
 * Virtuelle Umgebung empfohlen:
@@ -33,7 +33,7 @@ pip install requests beautifulsoup4 certifi
 
 ---
 
-## 🚀 Nutzung
+## Nutzung
 
 1. Repository klonen:
 
@@ -58,7 +58,7 @@ python telefonnrabfrage.py
 
 ---
 
-## 🧪 Unit Tests
+## Unit Tests
 
 Tests sind unter `tests/test_suche.py` verfügbar.
 Tests ausführen:
@@ -69,7 +69,7 @@ python -m unittest discover tests
 
 ---
 
-## 💾 Git Hinweise
+## Git Hinweise
 
 1. Änderungen hinzufügen:
 
@@ -91,7 +91,7 @@ git push origin main
 
 ---
 
-## 📌 Best Practices für Commit-Messages
+## Best Practices für Commit-Messages
 
 * Max. 50 Zeichen in der Betreffzeile
 * Erste Buchstabe groß, kein Punkt am Ende
@@ -102,7 +102,7 @@ git push origin main
 
 ---
 
-## ⚠️ Hinweise
+## Hinweise
 
 * Ctrl+C im Terminal stoppt die GUI, wenn sie hängt
 * Nutzung ohne Adminrechte auf Mac möglich, da `python-tk` über Brew installiert werden kann
